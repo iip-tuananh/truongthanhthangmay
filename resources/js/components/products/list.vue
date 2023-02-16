@@ -3,8 +3,8 @@
       <div class="col-md-12 grid-margin stretch-card">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title" >Danh sách thiết kế</h4>
-            <p class="card-description">Thêm mới hoặc sửa sửa thiết kế</p>
+            <h4 class="card-title" >Danh sách sản phẩm thiết kế</h4>
+            <p class="card-description">Thêm mới hoặc sửa  thiết kế</p>
 
             <router-link class="nav-link" :to="{name:'createProduct'}">
               <vs-button type="gradient" style="float:right;">Thêm mới</vs-button>

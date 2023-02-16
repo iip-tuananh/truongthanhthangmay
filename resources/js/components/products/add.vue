@@ -5,7 +5,7 @@
           <div class="card">
             <div class="card-body">
               <div class="form-group">
-                <label>Tên thiết kế</label>
+                <label>Tên sản phẩm thiết kế</label>
                 <vs-input
                   type="text"
                   size="default"
