@@ -43,7 +43,7 @@
                               <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
                               <script>
                                  var swiper = new Swiper(".mySwiperbanner", {
-                                 slidesPerView: 1,
+                                 slidesPerView: 3,
                                  spaceBetween: 5,
                                  pagination: {
                                  el: ".swiper-pagination",
@@ -63,7 +63,7 @@
           spaceBetween: 20,
         },
         1024: {
-          slidesPerView: 1,
+          slidesPerView: 3,
           spaceBetween: 20,
         },
       },
@@ -326,7 +326,7 @@
                           background-position: center;
                           background-size: cover;
                           width: 300px;
-                     
+                         
                         }
                         .mySwiperproject .swiper-button-next,.mySwiperproject .swiper-button-prev{
                            color: white;

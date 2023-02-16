@@ -28,12 +28,14 @@
     <meta name="twitter:title" content="@yield('title')" />
     <meta name="twitter:image" content="@yield('image')" />
       <!-- / Yoast SEO plugin. -->
+      
       <link rel='dns-prefetch' href='//fonts.googleapis.com' />
       <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
       <link rel="alternate" type="application/rss+xml" title="Dòng thông tin NSH - Thang Máy Hitachi Chính Hãng &raquo;" href="https://nsh-group.vn/feed/" />
       <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi NSH - Thang Máy Hitachi Chính Hãng &raquo;" href="https://nsh-group.vn/comments/feed/" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <style type="text/css">
+
          img.wp-smiley,
          img.emoji {
          display: inline !important;
