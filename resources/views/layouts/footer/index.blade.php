@@ -258,18 +258,38 @@
                                                    ">
                                                 </div>
                                                 <ul id="ct_contact_info-0152e64" class="ct-contact-info ct-contact-info1 " data-wow-duration="1.2s">
+                                                   @if($setting->address1 != '')
                                                    <li>
                                                       <span class="ct-contact-icon">
                                                       <i aria-hidden="true" class="fas fa-map-marker-alt"></i>		                			        </span>
                                                       <span class="ct-contact-content">
                                                       {{$setting->address1}}       </span>
                                                    </li>
+                                                   @endif
+                                                   @if($setting->address2 != '')
+                                                   <li>
+                                                      <span class="ct-contact-icon">
+                                                      <i aria-hidden="true" class="fas fa-map-marker-alt"></i>		                			        </span>
+                                                      <span class="ct-contact-content">
+                                                      {{$setting->address2}}       </span>
+                                                   </li>
+                                                   @endif
+                                                   @if($setting->phone1 != '')
                                                    <li>
                                                       <span class="ct-contact-icon">
                                                       <i aria-hidden="true" class="fas fa-phone-alt"></i>		                			        </span>
                                                       <span class="ct-contact-content">
                                                       {{$setting->phone1}}              </span>
                                                    </li>
+                                                   @endif
+                                                   @if($setting->phone2 != '')
+                                                   <li>
+                                                      <span class="ct-contact-icon">
+                                                      <i aria-hidden="true" class="fas fa-phone-alt"></i>		                			        </span>
+                                                      <span class="ct-contact-content">
+                                                      {{$setting->phone2}}              </span>
+                                                   </li>
+                                                   @endif
                                                    <li>
                                                       <span class="ct-contact-icon">
                                                       <i aria-hidden="true" class="fas fa-phone-alt"></i>		                			        </span>
@@ -452,7 +472,7 @@
                                                       {{$setting->phone1}}              </span>
                                                    </li>
                                                    @endif
-                                                   @if($setting->phone2 != '')
+                                                   @if($setting->phone2)
                                                    <li>
                                                       <span class="ct-contact-icon">
                                                       <i aria-hidden="true" class="fas fa-phone-alt"></i>		                			        </span>
