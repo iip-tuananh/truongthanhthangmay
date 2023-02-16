@@ -18,7 +18,7 @@
    .mySwiperbanner{
       padding-top: 0px !important;
       padding-bottom: 0px !important;
-      height: auto;
+      height: 100% !important;
    }
 </style>
 <div id="content" class="site-content">
@@ -326,7 +326,7 @@
                           background-position: center;
                           background-size: cover;
                           width: 300px;
-                          height: 300px;
+                     
                         }
                         .mySwiperproject .swiper-button-next,.mySwiperproject .swiper-button-prev{
                            color: white;
