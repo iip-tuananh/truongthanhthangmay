@@ -43,7 +43,7 @@
                               <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
                               <script>
                                  var swiper = new Swiper(".mySwiperbanner", {
-                                 slidesPerView: 1,
+                                 slidesPerView: 3,
                                  spaceBetween: 5,
                                  pagination: {
                                  el: ".swiper-pagination",
