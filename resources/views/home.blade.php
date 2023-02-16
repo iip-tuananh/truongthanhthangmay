@@ -18,7 +18,7 @@
    .mySwiperbanner{
       padding-top: 0px !important;
       padding-bottom: 0px !important;
-      height: 600px;
+      height: auto;
    }
 </style>
 <div id="content" class="site-content">
