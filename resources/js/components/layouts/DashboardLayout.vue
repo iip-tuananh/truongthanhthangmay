@@ -89,34 +89,34 @@ export default {
       objSidebar: [
         {
           icon: "mdi mdi-crosshairs-gps menu-icon",
-          name: "Quản lý thiết kế",
+          name: "Quản lý sản phẩm",
           route_name: "",
           sub: [
             {
-              name: "Danh mục thiết kế",
+              name: "Danh mục sản phẩm",
               path: "/product/category",
             },
+            // {
+            //   name: "Loại thiết kế",
+            //   path: "/product/type",
+            // },
             {
-              name: "Loại thiết kế",
-              path: "/product/type",
-            },
-            {
-              name: "Danh sách thiết kế",
+              name: "Danh sách sản phẩm",
               path: "/product",
             },
           ],
         },
-        // {
-        //   icon: "mdi mdi-newspaper menu-icon",
-        //   name: "Dịch vụ",
-        //   route_name: "",
-        //   sub: [
-        //     {
-        //       name: "Danh sách ",
-        //       path: "/service",
-        //     }
-        //   ],
-        // },
+        {
+          icon: "mdi mdi-newspaper menu-icon",
+          name: "Dịch vụ",
+          route_name: "",
+          sub: [
+            {
+              name: "Danh sách ",
+              path: "/service",
+            }
+          ],
+        },
         {
             icon: "mdi mdi-newspaper menu-icon",
             name: "Quản lý dự án",
@@ -229,17 +229,17 @@ export default {
             }
           ],
         },
-        {
-          icon: "mdi mdi-newspaper menu-icon",
-          name: "Đội ngũ nhân viên",
-          route_name: "",
-          sub: [
-            {
-              name: "Danh sách dịch vụ",
-              path: "/reviewCus",
-            }
-          ],
-        },
+        // {
+        //   icon: "mdi mdi-newspaper menu-icon",
+        //   name: "Đội ngũ nhân viên",
+        //   route_name: "",
+        //   sub: [
+        //     {
+        //       name: "Danh sách dịch vụ",
+        //       path: "/reviewCus",
+        //     }
+        //   ],
+        // },
       ],
     };
   },
