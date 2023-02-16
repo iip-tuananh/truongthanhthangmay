@@ -267,7 +267,7 @@
                                              });
                                           </script>
                                              <br>
-                                             <div > <h5 class="h5-cus">DỰ ÁN THỰC TẾ</h5></div>
+                                             <div style="transform: translateY(40px)"> <h5 class="h5-cus">DỰ ÁN THỰC TẾ</h5></div>
                                              <div class="elementor-element elementor-element-507cd44 elementor--h-position-center elementor--v-position-middle elementor-arrows-position-inside elementor-pagination-position-inside elementor-widget elementor-widget-slides" data-id="507cd44" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}" data-widget_type="slides.default">
                                                 <div class="elementor-widget-container">
                                                    <div class="elementor-swiper">
@@ -279,7 +279,8 @@
                                                             @php
                                                                 $imgs = json_decode($item->images);
                                                             @endphp
-                                                                 <div class="swiper-slide">
+                                                                 <div class="swiper-slide cus-box">
+                                                                  <div class="title-cus">{{$item->name}}</div>
                                                                   <a href="{{route('detailConstruction',['id'=>$item->id,'slug'=>$item->slug])}}">
                                                                      <img src="{{$imgs[0]}}" alt="" srcset=""></div>
 
