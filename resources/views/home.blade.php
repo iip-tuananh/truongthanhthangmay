@@ -225,7 +225,7 @@
                               </section>
                               {{-- end danh muc --}}
                               <section class="elementor-section elementor-top-section elementor-element elementor-element-e66447a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e66447a" data-element_type="section">
-                                 <div > <h5 class="h5-cus">ẢNH PRODUCT & DỰ ÁN</h5></div>
+                                 <div > <h5 class="h5-cus">ẢNH PRODUCT & DỰ ÁN HITACHI</h5></div>
                                  <div class="elementor-container elementor-column-gap-default ">
                                     <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-928af16" data-id="928af16" data-element_type="column">
                                        <div class="elementor-widget-wrap elementor-element-populated">
@@ -239,7 +239,9 @@
                                                   
                                                       
                                                          @foreach ($picturehome as $item)
-                                                              <div class="swiper-slide"><img  src="{{$item->image}}" alt="" srcset=""></div>
+                                                         <div class="swiper-slide cus-new">
+                                                         <div class="cus-new-title">{{$item->name}}</div>
+                                                               <img  src="{{$item->image}}" alt="" srcset=""></div>
                                                          @endforeach
                                                           
                                                       </div>
@@ -267,7 +269,7 @@
                                              });
                                           </script>
                                              <br>
-                                             <div style="transform: translateY(40px)"> <h5 class="h5-cus">DỰ ÁN THỰC TẾ</h5></div>
+                                             <div style="transform: translateY(40px)"> <h5 class="h5-cus">DỰ ÁN THANG HOMLIFT HITACHI ĐÃ TRIỂN KHAI</h5></div>
                                              <div class="elementor-element elementor-element-507cd44 elementor--h-position-center elementor--v-position-middle elementor-arrows-position-inside elementor-pagination-position-inside elementor-widget elementor-widget-slides" data-id="507cd44" data-element_type="widget" data-settings="{&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;transition&quot;:&quot;slide&quot;,&quot;transition_speed&quot;:500}" data-widget_type="slides.default">
                                                 <div class="elementor-widget-container">
                                                    <div class="elementor-swiper">
