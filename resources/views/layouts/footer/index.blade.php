@@ -316,7 +316,7 @@
                                           <div class="elementor-element elementor-element-4428c0a elementor-widget elementor-widget-ct_image" data-id="4428c0a" data-element_type="widget" data-widget_type="ct_image.default">
                                              <div class="elementor-widget-container">
                                                 <div class="ct-image-single  ">
-                                                   <a href="{{route('home')}}">            <img width="900" height="300" src="{{$setting->logo}}" class="attachment-full" alt="Logo-NSH-trang" />        </a>    
+                                                   <a href="{{route('home')}}">            <img width="500" height="200" src="{{$setting->logo}}" class="attachment-full"  />        </a>    
                                                 </div>
                                              </div>
                                           </div>
@@ -355,7 +355,9 @@
                                           </div>
                                           <div class="elementor-element elementor-element-4315656 elementor-widget elementor-widget-shortcode" data-id="4315656" data-element_type="widget" data-widget_type="shortcode.default">
                                              <div class="elementor-widget-container">
-                                                <div class="elementor-shortcode"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.6619850907896!2d105.82827381540221!3d21.006182393923535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135adb41577ecd7%3A0xc5052a1cefe9148c!2zQ8O0bmcgdHkgVE5ISCDEkOG6p3UgVMawIE5TSCAtIFRoYW5nIG3DoXkgSGl0YWNoaSBjaMOtbmggaMOjbmc!5e0!3m2!1sen!2s!4v1634261930037!5m2!1sen!2s" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                                                <div class="elementor-shortcode">
+                                                   {!!$setting->iframe_map!!}
+                                                </div>
                                              </div>
                                           </div>
                                        </div>
