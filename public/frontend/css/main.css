@@ -132,11 +132,12 @@ display: block;
 }
 .cus-new-title{
 	position: absolute;
-
 	color: white;
 	padding: 10px;
-	bottom:10%;
+	bottom: 0px;
+	font-size: 23px;
 	width: 100%;
+	text-transform: uppercase;
 	word-wrap: break-word;
 }
 .title-cus{
