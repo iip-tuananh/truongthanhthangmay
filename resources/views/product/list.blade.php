@@ -49,8 +49,50 @@ Danh sách {{$title}}
                            </div>
                         </div>
                      </div>
+                
                   </div>
                </section>
+               <div class="pagenav">
+                  {{$list->links()}}
+               </div>
+                  
+                  <style>
+                  .pagenav{
+                     
+                     width: 100% !important;
+                     display: flex !important;
+                     justify-content: center !important;
+                     padding: 40px 0 !important;
+                  }
+                  .pagenav ul.pagination{
+                     background-color: rgb(255 255 255) !important;
+                     display: flex !important;
+                     list-style: none !important;
+                  }
+                  .pagenav ul.pagination li span{
+                  
+                     height:41px !important;
+                     width: 35px!important;
+                     display: flex;
+                     justify-content: center!important;
+                     align-items: center!important;
+                  }
+                  .pagenav .pagination a{
+                     height:41px!important;
+                     width: 35px!important;
+                     display: flex!important;
+                     justify-content: center!important;
+                     align-items: center!important;
+                  }
+                  .pagenav .pagination a:hover{
+                     background-color: #847467!important;
+                     color: antiquewhite!important;
+                  }
+                  .pagenav li.active{
+                     background-color: #847467!important;
+                     color: antiquewhite!important;
+                  }
+                  </style>
             </div>
          </div>
       </div>
