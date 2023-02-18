@@ -157,6 +157,10 @@ display: block;
 	bottom: 0px;
 	background-color: rgb(0 0 0 / 47%);
 }
+.ct-image-single  {
+	display: flex;
+	justify-content: center;
+}
 /* .swiper-slide img{
 	animation: kenburns 20s infinite;
 } */
