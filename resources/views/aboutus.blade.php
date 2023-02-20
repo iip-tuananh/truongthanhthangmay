@@ -45,7 +45,7 @@ ul.ct-breadcrumb {
 </style>
                                        <div class="container cus-heder">
                                              <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default" style="color:rgb(170, 5, 5)">CÔNG TY TNHH ĐẦU TƯ NSH</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default" style="color:rgb(170, 5, 5)">{{$setting->company}}</h2>
                                              </div>
                                        </div>
                                        <br>
