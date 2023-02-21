@@ -68,7 +68,7 @@ Dịch vụ của chúng tôi
                                                                   ">
                                                                </div>
                                                                <div class="ct-text-editor elementor-clearfix">
-                                                                  <p style="text-align: center"><span style="font-size: 11pt"><strong>{{$setting->company}}</strong> hân hạnh là đại lý chính hãng của thang máy Hitachi tại Việt nam. Chúng tôi chuyên cung cấp các giải pháp tư vấn lựa chọn và lắp đặt thang máy với chất lượng hàng đầu. NSH luôn tuân thủ chặt chẽ các quy trình quản lý dịch vụ trước và sau bán hàng, cùng với đó là các tiêu chuẩn lắp đặt, nghiệm thu, vận hành, bảo trì chính hãng, đảm bảo an toàn, chất lượng và lợi ích cao nhất cho quý khách hàng. </span></p>
+                                                                  <p style="text-align: center"><span style="font-size: 11pt"><strong>{{$setting->company}}</strong> hân hạnh là đại lý chính hãng của thang máy Hitachi tại Việt nam. Chúng tôi chuyên cung cấp các giải pháp tư vấn lựa chọn và lắp đặt thang máy với chất lượng hàng đầu, luôn tuân thủ chặt chẽ các quy trình quản lý dịch vụ trước và sau bán hàng, cùng với đó là các tiêu chuẩn lắp đặt, nghiệm thu, vận hành, bảo trì chính hãng, đảm bảo an toàn, chất lượng và lợi ích cao nhất cho quý khách hàng. </span></p>
                                                                </div>
                                                             </div>
                                                          </div>
