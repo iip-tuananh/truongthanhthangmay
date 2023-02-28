@@ -27,7 +27,7 @@
               'csrf_token' => csrf_token(),
           ])
        !!};
-      </script>
+      </script> 
 
   </head>
   <body>
