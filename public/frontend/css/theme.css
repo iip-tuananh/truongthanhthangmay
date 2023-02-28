@@ -22883,7 +22883,7 @@ body.woocommerce #respond input#submit.alt.btn-secondary:hover, body.woocommerce
 .woocommerce ul.products {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  margin: 32px -15px;
 }
 
 .woocommerce ul.products li.product {
