@@ -24,7 +24,7 @@
       window.__ENV__ = window.__ENV || {}; __ENV__.link ='https://truongthanhthangmay.com/';
       window.Laravel = {!! 
           json_encode([
-              'csrf_token' => csrf_token(),
+              'csrf_token' => csrf_token(),    
           ])
        !!};
       </script> 
