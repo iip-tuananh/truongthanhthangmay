@@ -161,6 +161,21 @@ display: block;
 	display: flex;
 	justify-content: center;
 }
+.btn-youtube{
+	
+	padding: 10px;
+}
+.btn-youtube button{
+	border-radius: 10px;
+	font-size: 15px;
+}
+.btn-driver button{
+	border-radius: 10px;
+	font-size: 15px;
+}
+.btn-driver{
+padding: 10px;
+}
 /* .swiper-slide img{
 	animation: kenburns 20s infinite;
 } */

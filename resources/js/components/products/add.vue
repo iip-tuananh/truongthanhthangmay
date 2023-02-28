@@ -135,6 +135,26 @@
                 </vs-select>
               </div>
               <div class="form-group">
+                <label>Link youtube</label>
+                <vs-input
+                  type="text"
+                  size="default"
+                  placeholder="Enter link youtube"
+                  class="w-100"
+                  v-model="objData.thickness"
+                />
+              </div>
+              <div class="form-group">
+                <label>Link driver</label>
+                <vs-input
+                  type="text"
+                  size="default"
+                  placeholder="Enter link driver"
+                  class="w-100"
+                  v-model="objData.hang_muc"
+                />
+              </div>
+              <div class="form-group">
                 <label>Hiển thị trang chủ</label>
                 <vs-select v-model="objData.discountStatus">
                   <vs-select-item value="1" text="Có" />
@@ -156,7 +176,6 @@
       </div>
     </div>
 </template>
-
 
 <script>
 import { mapActions } from "vuex";

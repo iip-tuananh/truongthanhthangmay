@@ -74,6 +74,23 @@ $img = json_decode($product->images);
            </div>
        </div>
    </div>
+   @if($product->thickness != '' && $product->hang_muc != '')
+   <br>
+   <div class="row">
+    <div class="col-md-12 col-xs-12 description-cus" style="display: flex">
+      @if($product->thickness != '')
+      <div class="btn-youtube">
+        <a href="{{$product->thickness}}" target="_blank"><button><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Xem trên youtube</button></a>
+      </div>
+      @endif
+      @if($product->hang_muc != '')
+      <div class="btn-driver">
+       <a href="{{$product->hang_muc}}" target="_blank"> <button><i class="fa-brands fa-google-drive"></i>&nbsp;&nbsp;Xem file Drive</button></a>
+      </div>
+      @endif
+    </div>
+   </div>
+   @endif
    <br>
    <div class="row">
        <div class="col-md-12 col-xs-12 description-cus">
