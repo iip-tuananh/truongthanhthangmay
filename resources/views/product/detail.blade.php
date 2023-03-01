@@ -80,12 +80,12 @@ $img = json_decode($product->images);
     <div class="col-md-12 col-xs-12 description-cus" style="display: flex">
       @if($product->thickness != '')
       <div class="btn-youtube">
-        <a href="{{$product->thickness}}" target="_blank"><button><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Xem trên youtube</button></a>
+        <a href="{{$product->thickness}}" target="_blank"><button><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Video giới thiệu thang máy</button></a>
       </div>
       @endif
       @if($product->hang_muc != '')
       <div class="btn-driver">
-       <a href="{{$product->hang_muc}}" target="_blank"> <button><i class="fa-brands fa-google-drive"></i>&nbsp;&nbsp;Xem file Drive</button></a>
+       <a href="{{$product->hang_muc}}" target="_blank"> <button><i class="fa-brands fa-google-drive"></i>&nbsp;&nbsp;Thiết kế mô phỏng thang home</button></a>
       </div>
       @endif
     </div>
