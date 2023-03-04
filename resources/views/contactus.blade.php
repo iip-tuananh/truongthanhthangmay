@@ -99,7 +99,7 @@ Liên hệ với chúng tôi
 														@csrf
 														  <div class="row">
 															 <div class="input-filled col-lg-6 col-md-6"><label>Họ tên*</label><span class="wpcf7-form-control-wrap hoten"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="..." /></span></div>
-															 <div class="input-filled col-lg-6 col-md-6"><label>Điện thoại*</label><span class="wpcf7-form-control-wrap dienthoai"><input type="phone" name="dienthoai" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="090xxx" /></span></div>
+															 <div class="input-filled col-lg-6 col-md-6"><label>Điện thoại*</label><span class="wpcf7-form-control-wrap dienthoai"><input type="phone" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="090xxx" /></span></div>
 														  </div>
 														  <div class="row">
 															
